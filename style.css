@@ -1,0 +1,39 @@
+html{
+	position: relative;
+	min-height: 100%;
+	height: auto;
+}
+
+body{
+
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	background: grey;
+	bottom: 0;
+	color: white;
+	padding: 10px 0 10px 0;
+}
+footer p.text-muted{
+	color: white;
+}
+
+td .btn{
+	margin-right: 4px;
+}
+
+.actions .book-year{
+	position: absolute;
+	left: 0;
+	display: none;
+}
+
+.actions.viewing{
+	height: 100px;
+}
+
+.actions.viewing .book-year{
+	display: block;
+}
